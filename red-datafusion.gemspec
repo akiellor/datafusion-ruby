@@ -36,7 +36,6 @@ Gem::Specification.new do |spec|
     "Rakefile",
   ]
   spec.files += Dir.glob("lib/**/*.rb")
-  spec.extensions = ["dependency-check/Rakefile"]
 
   spec.add_runtime_dependency("red-arrow")
 
